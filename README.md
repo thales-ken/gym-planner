@@ -1,2 +1,2 @@
 # gym-planner
-Web application that manages workout routines and data for gym users.
+A web application designed to manage workout routines and track data for gym users.
