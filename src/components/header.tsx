@@ -1,15 +1,23 @@
+import { Saira_Stencil_One } from "next/font/google"
+import PrimaryInputWSearchIcon from "./primary-input"
+
+const sairaStencil = Saira_Stencil_One({
+    subsets: ['latin'],
+    weight: ['400']
+})
+
 interface HeaderProps {
 
 }
 
 export function Header(props: HeaderProps) {
     return (
-        <header className='text-red-500'>
-            Teste
-            <div className="p-10 flex flex-col gap-4">
-                <div className="rounded-full h-10 w-10 bg-red-500 hover:w-96 transition-all hover:px-10 text-white"> Home </div>
-                <div className="rounded-full h-10 w-10 bg-yellow-500 hover:w-96 transition-all hover:px-10 text-white"> Projects </div>
-                <div className="rounded-full h-10 w-10 bg-green-500 hover:w-96 transition-all hover:px-10 text-white"> About Me </div>
+        <header className='flex items-center justify-between py-5 px-40'>
+            <div>
+                <a className={sairaStencil.className}>Gym-Planner</a>
+            </div>
+            <div>
+                <PrimaryInputWSearchIcon></PrimaryInputWSearchIcon>
             </div>
         </header>
     )
