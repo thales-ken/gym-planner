@@ -1,20 +1,15 @@
-import { Saira_Stencil_One } from "next/font/google"
+import Logo from "./logo";
+import Navbar from "./navbar";
 
-const sairaStencil = Saira_Stencil_One({
-    subsets: ['latin'],
-    weight: ['400']
-})
-
-interface HeaderProps {
-
-}
+interface HeaderProps {}
 
 export function Header(props: HeaderProps) {
     return (
-        <header className='flex items-center justify-between py-5 px-40'>
-            <div>
-                <a className={sairaStencil.className}>Gym-Planner</a>
+        <header className='py-5 px-40'>
+            <div className='flex flex-row items-center justify-between'>
+                <Logo />
+                <Navbar />
             </div>
         </header>
-    )
+    );
 }

@@ -1,10 +1,8 @@
-import { Header } from "@/components/header";
-
 export default function Home() {
   return (
     <div className="flex w-full justify-center items-center min-h-screen">
       <div className="w-4/5 mx-auto">
-        <h1>Lorem Ipsum</h1>
+        <h2 className="text-center font-bold text-emphasis mb-5">Lorem Ipsum</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id ipsum vitae nunc vehicula blandit et scelerisque diam. Praesent id euismod magna. Duis dignissim dui odio, a elementum elit auctor ultrices. Sed pretium quis orci non finibus. Quisque scelerisque ipsum lectus, id euismod tortor aliquet at. Nunc hendrerit, ex bibendum cursus aliquet, ligula lorem gravida urna, sit amet feugiat leo justo nec turpis. Vivamus vitae est sed augue gravida feugiat. Vivamus vitae sem vel turpis mattis ullamcorper. Curabitur rhoncus enim eget dolor ornare, eget auctor mauris imperdiet. In eleifend turpis quam, sit amet dapibus risus venenatis sed. Integer tellus purus, tristique rutrum efficitur sit amet, tincidunt non odio. Aenean non ante et libero viverra tincidunt at et elit. Morbi lacus nibh, maximus vel maximus sed, eleifend sed tellus. Proin elementum posuere purus, sed ornare orci.
 
