@@ -1,5 +1,4 @@
 import { Saira_Stencil_One } from "next/font/google"
-import PrimaryInputWSearchIcon from "./primary-input"
 
 const sairaStencil = Saira_Stencil_One({
     subsets: ['latin'],
@@ -15,9 +14,6 @@ export function Header(props: HeaderProps) {
         <header className='flex items-center justify-between py-5 px-40'>
             <div>
                 <a className={sairaStencil.className}>Gym-Planner</a>
-            </div>
-            <div>
-                <PrimaryInputWSearchIcon></PrimaryInputWSearchIcon>
             </div>
         </header>
     )
